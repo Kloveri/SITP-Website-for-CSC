@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同济大学行为检测与分析平台 ~ by 校园智能卡团队</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="project-header">
+        <div class="logo-area">
+            <div class="logo-row"></div>
+            <style>
+                img{
+                    max-width: 5%;
+                    height: auto;
+                    align-items: center;
+                    position:relative;
+                    left: 5%;
+                }
+            </style>
+            <img src="img/tj.png" alt="logo">
+            <span class="real-logo"> Tongji University </span>
+        </div>
+        <span class="logo-text">同济大学学生行为监测中心</span>
+        <div class="nav-buttons">
+            <button class="nav-btn active" data-panel="1">全校学生概况</button>
+            <button class="nav-btn" data-panel="2">个体行为分析</button>
+            <button class="nav-btn" data-panel="3">简易版与推荐</button>
+            <button class="nav-btn" data-panel="4">团队介绍<br>About Our Team</button>
+        </div>
+    </header>
+    <div class="app-container">
+        <div class="panels-container">
+            <!-- 面板 1 -->
+            <div class="chat-panel active" id="panel1">
+                <div class="panel-header"><h2>📋 全校学生概况——总体数据掌握与监控 <span>教师端</span></h2></div>
+                <div class="chat-messages" id="messages1"></div>
+                <div class="chat-footer">
+                    <div class="input-wrapper"><textarea id="input1" placeholder="输入消息，查看全校总体数据..." rows="1"></textarea></div>
+                    <button class="send-btn" id="sendBtn1" data-panel="1">➤</button>
+                </div>
+            </div>
+            <!-- 面板 2 -->
+            <div class="chat-panel" id="panel2">
+                <div class="panel-header"><h2>🛠️ 个体行为分析——基于行为识别的全面评估 <span>学生端</span></h2></div>
+                <div class="chat-messages" id="messages2"></div>
+                <div class="chat-footer">
+                    <div class="input-wrapper"><textarea id="input2" placeholder="输入消息，进行行为评估..." rows="1"></textarea></div>
+                    <button class="send-btn" id="sendBtn2" data-panel="2">➤</button>
+                </div>
+            </div>
+            <!-- 面板 3 -->
+            <div class="chat-panel" id="panel3">
+                <div class="panel-header"><h2>🔎 简易版与推荐——基础信息速查与就餐推荐 <span>推荐官</span></h2></div>
+                <div class="panel-content split-layout">
+                    <div class="left-chat">
+                        <div class="chat-messages" id="messages3"></div>
+                        <div class="chat-footer">
+                            <div class="input-wrapper"><textarea id="input3" placeholder="输入消息，进行快速信息查询..." rows="1"></textarea></div>
+                            <button class="send-btn" id="sendBtn3" data-panel="3">➤</button>
+                        </div>
+                    </div>
+                    <div class="right-posts">
+                        <div class="posts-header">📌 同济美食精选</div>
+                        <div class="posts-scroll">
+                            <div class="post-card"><img src="img/changfen1.jpg" alt="美食" class="post-image"><div class="post-content"><h4>同济食堂真的绝了！</h4><p>最近爱上了北苑二楼食堂，尤其是肠粉！<br>好好吃！而且这么大一份才12元！😋</p><span class="post-meta">❤️ 6  👍 3</span></div></div>
+                            <div class="post-card"><img src="img/1afd92b9975ce2db4ef31bab8f01ec3f.jpg" alt="美食" class="post-image"><div class="post-content"><h4>同济我原谅你一秒</h4><p>哇难得迟到正常的，呆了三年一直只吃那三四样，其他一律都踩雷，感谢体测完不想吃外卖决定吃食堂的我</p><span class="post-meta">❤️ 65  👍 20</span></div></div>
+                            <div class="post-card"><img src="img/07902ba608538e94f9b9fcfb7b00ea62.jpg" alt="美食" class="post-image"><div class="post-content"><h4>同济美食栏目|食堂又上新了什么</h4><p>定位余香食集，💰14r，敲黑板，锡纸鱼丸粉丝</p><span class="post-meta">❤️ 312  👍 78</span></div></div>
+                            <div class="post-card"><img src="img/2d10258b1c39486004f3093dd089868f.jpg" alt="美食" class="post-image"><div class="post-content"><h4>如果你还不知道学苑三楼的教师餐厅...</h4><p>速速去尝试一下！学生可以在工作日的晚餐时间和周末时间去用餐</p><span class="post-meta">❤️ 156  👍 43</span></div></div>
+                            <div class="post-card"><img src="img/0de7ae846e84cc5263f616a9b1724048.jpg" alt="美食" class="post-image"><div class="post-content"><h4>20r同济西苑的牛肉芝士辛拉面好好吃！</h4><p>虽然每次都要等待<br>但是看着一整片芝士融化在咕嘟咕嘟地汤里好幸福</p><span class="post-meta">❤️ 156  👍 43</span></div></div>
+                            <div class="post-card"><img src="img/13e0069c63c4aeace0bca6fb672d88cf.jpg" alt="美食" class="post-image"><div class="post-content"><h4>我宣布西苑目前最好吃的是擂椒饭</h4><p>11.4 刚开业的时候十一点左右去西苑 人巨多<br>最后选了排队相对少的砂锅煲 排骨粉丝煲中规中矩吧 有点咸 排骨吃到后面有点腥 也没有配米饭
+                                </p><span class="post-meta">❤ 156  👍 43</span></div></div>
+                            <div class="post-card"><img src="img/515e684d3e28244994a239419baa7088.jpg" alt="美食" class="post-image"><div class="post-content"><h4>开学第二天吃什么</h4><p>北苑二楼云南米线窗口</p><span class="post-meta">❤️ 156  👍 43</span></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="config-warning" id="configWarning">⚠️ 请先修改代码中的 <strong>API 令牌</strong> 和 <strong>工作流ID</strong>（搜索 REPLACE_ME）</div>
+    </div>
+
+    <script>
+        // ================== 配置区域 ==================
+        const COZE_API_TOKEN = 'pat_FzZU2IZr34kIy6tgX0yQDJZQptJOZKooiYakn1oYRjRx3SJK4ca6bTCGKsYEUOxW';
+        const BOT_ID_1 = '7616778619796668456';
+        const BOT_ID_2 = '7616659361280819234';
+        const BOT_ID_3 = '7616772147448889344';
+        const USER_ID = 'web_user_' + Math.random().toString(36).substring(2, 10);
+        const COZE_API_BASE = 'https://api.coze.cn/v3/chat';
+
+        let conversationIds = { 1: null, 2: null, 3: null };
+        const loadingState = { 1: false, 2: false, 3: false };
+
+        if (COZE_API_TOKEN.includes('REPLACE_ME') || BOT_ID_1.includes('REPLACE_ME')) {
+            document.getElementById('configWarning').style.display = 'block';
+        } else {
+            document.getElementById('configWarning').style.display = 'none';
+        }
+
+        function autoResize(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 120) + 'px';
+        }
+        document.querySelectorAll('textarea').forEach(ta => {
+            ta.addEventListener('input', function() { autoResize(this); });
+        });
+
+        // 面板切换
+        const navBtns = document.querySelectorAll('.nav-btn');
+        const panels = document.querySelectorAll('.chat-panel');
+        function switchPanel(panelId) {
+            panels.forEach(p => p.classList.remove('active'));
+            const targetPanel = document.getElementById(`panel${panelId}`);
+            if (targetPanel) targetPanel.classList.add('active');
+            navBtns.forEach(btn => btn.classList.remove('active'));
+            const activeBtn = document.querySelector(`.nav-btn[data-panel="${panelId}"]`);
+            if (activeBtn) activeBtn.classList.add('active');
+            const appContainer = document.querySelector('.app-container');
+            const body = document.body;
+            if (panelId === '3') {
+                body.classList.add('panel3-active');
+                appContainer.classList.add('panel3-fullscreen');
+            } else {
+                body.classList.remove('panel3-active');
+                appContainer.classList.remove('panel3-fullscreen');
+            }
+        }
+        navBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => switchPanel(e.target.getAttribute('data-panel')));
+        });
+
+        // 添加用户消息
+        function addUserMessage(panelId, text) {
+            const messagesDiv = document.getElementById(`messages${panelId}`);
+            const row = document.createElement('div'); row.className = 'message-row user';
+            const wrapper = document.createElement('div'); wrapper.className = 'message-bubble-wrapper';
+            const bubble = document.createElement('div'); bubble.className = 'message-bubble'; bubble.textContent = text;
+            wrapper.appendChild(bubble); row.appendChild(wrapper); messagesDiv.appendChild(row);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function createBotMessage(panelId) {
+            const messagesDiv = document.getElementById(`messages${panelId}`);
+            const row = document.createElement('div'); row.className = 'message-row bot';
+            const wrapper = document.createElement('div'); wrapper.className = 'message-bubble-wrapper';
+            const label = document.createElement('span'); label.className = 'sender-label'; label.textContent = 'AI 助手';
+            wrapper.appendChild(label);
+            const bubble = document.createElement('div'); bubble.className = 'message-bubble'; bubble.textContent = '';
+            wrapper.appendChild(bubble);
+            row.appendChild(wrapper); messagesDiv.appendChild(row);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            return bubble;
+        }
+
+        // ================== 最终修复版（增加 type 过滤）==================
+        async function callCozeBotStream(panelId, userQuery, botBubble) {
+            const botIdMap = { 1: BOT_ID_1, 2: BOT_ID_2, 3: BOT_ID_3 };
+            const bot_id = String(botIdMap[panelId]);
+
+            const requestBody = {
+                bot_id: bot_id,
+                user_id: USER_ID,
+                stream: true,
+                auto_save_history: true,
+                additional_messages: [{ role: 'user', content: userQuery, content_type: 'text' }]
+            };
+            if (conversationIds[panelId]) requestBody.conversation_id = conversationIds[panelId];
+
+            console.log(`[面板${panelId}] 发送请求:`, requestBody);
+
+            try {
+                const response = await fetch(COZE_API_BASE, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${COZE_API_TOKEN}`
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                console.log(`[面板${panelId}] 响应状态:`, response.status);
+                if (!response.ok) {
+                    const errText = await response.text();
+                    throw new Error(`HTTP ${response.status}: ${errText.substring(0,100)}`);
+                }
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let accumulatedContent = '';
+                let buffer = ''; // 用于处理跨块的行
+                let currentEvent = null; // 保存当前事件类型
+
+                console.log(`[面板${panelId}] 开始读取流...`);
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) {
+                        console.log(`[面板${panelId}] 流结束 (done)`);
+                        break;
+                    }
+
+                    const chunk = decoder.decode(value, { stream: true });
+                    console.log(`[面板${panelId}] 收到原始块 (长度 ${chunk.length}):`, chunk);
+
+                    buffer += chunk;
+                    const lines = buffer.split('\n');
+                    buffer = lines.pop() || ''; // 最后可能是不完整的行
+
+                    for (let line of lines) {
+                        line = line.trim();
+                        if (line === '') continue;
+                        console.log(`[面板${panelId}] 处理后行:`, line);
+
+                        if (line.startsWith('event:')) {
+                            currentEvent = line.slice(6).trim();
+                            console.log(`[面板${panelId}] 事件:`, currentEvent);
+                        } else if (line.startsWith('data:')) {
+                            const dataStr = line.slice(5).trim();
+                            console.log(`[面板${panelId}] data 原始字符串:`, dataStr);
+                            if (dataStr === '"[DONE]"' || dataStr === '[DONE]') {
+                                console.log(`[面板${panelId}] 收到 [DONE] 信号`);
+                                continue;
+                            }
+                            try {
+                                const data = JSON.parse(dataStr);
+                                console.log(`[面板${panelId}] 解析后的 data:`, data);
+
+                                if (data.conversation_id) {
+                                    conversationIds[panelId] = data.conversation_id;
+                                    console.log(`[面板${panelId}] 更新 conversation_id:`, data.conversation_id);
+                                }
+
+                                // 使用之前记录的事件类型
+                                const eventType = currentEvent;
+                                console.log(`[面板${panelId}] 当前事件类型:`, eventType);
+
+                                // 对于消息事件，只处理 type 为 'answer' 的（用户可读的回复）
+                                if (eventType === 'conversation.message.delta' || eventType === 'conversation.message.completed') {
+                                    // 检查消息类型是否为 answer
+                                    if (data.type !== 'answer') {
+                                        console.log(`[面板${panelId}] 忽略非 answer 消息:`, data.type);
+                                        continue;
+                                    }
+                                }
+
+                                switch (eventType) {
+                                    case 'conversation.message.delta':
+                                        const delta = data.content || data.message_item?.content || '';
+                                        console.log(`[面板${panelId}] delta 内容:`, delta);
+                                        if (delta) {
+                                            accumulatedContent += delta;
+                                            botBubble.textContent = accumulatedContent;
+                                            console.log(`[面板${panelId}] 当前累积内容:`, accumulatedContent);
+                                            document.getElementById(`messages${panelId}`).scrollTop = 
+                                                document.getElementById(`messages${panelId}`).scrollHeight;
+                                        }
+                                        break;
+                                    case 'conversation.message.completed':
+                                        const final = data.content || data.message_item?.content || '';
+                                        console.log(`[面板${panelId}] 最终消息内容:`, final);
+                                        if (final && final !== accumulatedContent) {
+                                            accumulatedContent = final;
+                                            botBubble.textContent = final;
+                                        }
+                                        break;
+                                    case 'conversation.chat.completed':
+                                        console.log(`[面板${panelId}] 对话完成, usage:`, data.run_record_item?.usage);
+                                        break;
+                                    case 'conversation.error':
+                                        console.error(`[面板${panelId}] 错误事件:`, data.error);
+                                        throw new Error(data.error || '未知错误');
+                                    case 'conversation.stream.done':
+                                        console.log(`[面板${panelId}] 流完成信号`);
+                                        break;
+                                    default:
+                                        console.log(`[面板${panelId}] 未处理的事件:`, eventType);
+                                }
+                            } catch (e) {
+                                console.error(`[面板${panelId}] JSON 解析失败:`, e, '原始 data:', dataStr);
+                            }
+                        } else {
+                            console.log(`[面板${panelId}] 未知行格式:`, line);
+                        }
+                    }
+                }
+
+                if (accumulatedContent === '') {
+                    console.warn(`[面板${panelId}] 警告: 最终累积内容为空`);
+                }
+
+            } catch (error) {
+                console.error(`[面板${panelId}] 请求异常:`, error);
+                botBubble.classList.add('error-bubble');
+                botBubble.textContent = `请求失败: ${error.message}`;
+            }
+        }
+
+        async function handleSend(panelId) {
+            const input = document.getElementById(`input${panelId}`);
+            const query = input.value.trim();
+            if (!query || loadingState[panelId]) return;
+
+            input.value = '';
+            autoResize(input);
+            addUserMessage(panelId, query);
+
+            const botBubble = createBotMessage(panelId);
+            loadingState[panelId] = true;
+            const sendBtn = document.getElementById(`sendBtn${panelId}`);
+            sendBtn.classList.add('disabled');
+
+            await callCozeBotStream(panelId, query, botBubble);
+
+            loadingState[panelId] = false;
+            sendBtn.classList.remove('disabled');
+        }
+
+        // 绑定事件
+        for (let i = 1; i <= 3; i++) {
+            const sendBtn = document.getElementById(`sendBtn${i}`);
+            const input = document.getElementById(`input${i}`);
+            if (sendBtn) sendBtn.addEventListener('click', () => handleSend(i));
+            if (input) input.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); handleSend(i); }
+            });
+        }
+
+        // 初始欢迎消息
+        function addInitialBotMessage(panelId, text) {
+            const messagesDiv = document.getElementById(`messages${panelId}`);
+            const row = document.createElement('div'); row.className = 'message-row bot';
+            const wrapper = document.createElement('div'); wrapper.className = 'message-bubble-wrapper';
+            const label = document.createElement('span'); label.className = 'sender-label'; label.textContent = 'AI 助手';
+            wrapper.appendChild(label);
+            const bubble = document.createElement('div'); bubble.className = 'message-bubble'; bubble.textContent = text;
+            wrapper.appendChild(bubble);
+            row.appendChild(wrapper); messagesDiv.appendChild(row);
+        }
+        addInitialBotMessage(1, '欢迎各位老师进行校园管理查询~ 输入你关心的指标，我来告诉你具体的情况');
+        addInitialBotMessage(2, '欢迎各位同学进行自身行为分析~ 了解自己的行为可以督促你更好地管理自己喔');
+        addInitialBotMessage(3, '可以进行简单的信息查询与推荐美食速览~');
+
+        document.getElementById('input1')?.focus();
+    </script>
+</body>
+</html>
