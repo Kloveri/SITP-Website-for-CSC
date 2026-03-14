@@ -1,6 +1,6 @@
-About our Project：\n
-Name:基于校园智能卡刷卡记录数据的学生日常行为分析与数字智慧校园建设
-Duration:2025/04 ~ 2026/03
+About our Project：  
+Name:基于校园智能卡刷卡记录数据的学生日常行为分析与数字智慧校园建设  
+Duration:2025/04 ~ 2026/03  
 Level: 
 
 大家好！这里是一个简单的介绍！
