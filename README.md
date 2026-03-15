@@ -26,3 +26,7 @@ Student: J. Wang, R. Zhao, Y. Liu, Y. Bian
 Other Information:  
 Fundation: This project is funded by TJU, for total 5000r for a whole year  
 Declaration of Competing Interest: The authors declare that they have no known competing financial interests or personal relationships.  
+
+Contact with the authors:  
+You could contact with our team by oukashi104@gmail.com or 2253166@tongji.edu.cn  
+We are strongly looking forward to your ideas on our project and further research! 
