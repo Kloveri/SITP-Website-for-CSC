@@ -3,6 +3,15 @@ Name:基于校园智能卡刷卡记录数据的学生日常行为分析与数字
 Duration:2025/04 ~ 2026/03  
 Level: 
 
+Recent Trendency:
+<a href="https://www.star-history.com/?repos=Kloveri%2FSITP-Website-for-CSC&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&legend=top-left" />
+ </picture>
+</a>
+
 大家好！这里是一个简单的介绍！  
 这是TJU(Shanghai)SITP项目的代码库，目前仅做了最简单的代码打包，之后肯定还会继续完善的！  
 虽然有许多不足之处，但项目完成的过程令人开心，希望这个仓库也能作为第一个正儿八经（Bushi）的代码仓，祝福以后的科研生涯也越来越顺利吧~  
