@@ -3,14 +3,7 @@ Name:基于校园智能卡刷卡记录数据的学生日常行为分析与数字
 Duration:2025/04 ~ 2026/03  
 Level: 
 
-Recent Trendency:
-<a href="https://www.star-history.com/?repos=Kloveri%2FSITP-Website-for-CSC&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&legend=top-left" />
- </picture>
-</a>
+
 
 大家好！这里是一个简单的介绍！  
 这是TJU(Shanghai)SITP项目的代码库，目前仅做了最简单的代码打包，之后肯定还会继续完善的！  
@@ -39,3 +32,12 @@ Declaration of Competing Interest: The authors declare that they have no known c
 Contact with the authors:  
 You could contact with our team by oukashi104@gmail.com or 2253166@tongji.edu.cn  
 We are strongly looking forward to your ideas on our project and further research! 
+
+Recent Trendency:
+<a href="https://www.star-history.com/?repos=Kloveri%2FSITP-Website-for-CSC&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=Kloveri/SITP-Website-for-CSC&type=date&legend=top-left" />
+ </picture>
+</a>
