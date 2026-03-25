@@ -10,6 +10,8 @@ Level:
 虽然有许多不足之处，但项目完成的过程令人开心，希望这个仓库也能作为第一个正儿八经（Bushi）的代码仓，祝福以后的科研生涯也越来越顺利吧~  
 虽然是很简陋的代码，但还是希望能够为您带来一些小小的帮助~  
 
+###如果网站无法使用，请联系作者更换API
+
 About the code:  
 The code is mainly written by python 3.10, with the requirments as:  
     numpy -1.24.2  
