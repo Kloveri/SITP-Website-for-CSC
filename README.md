@@ -22,7 +22,7 @@ The code is mainly written by python 3.10, with the requirments as:
 
 About our Team:  
 Tutor: D. Wang(Professor), X. Feng. Thanks to guidance for Professor Wang. and data access for teacher Feng.  
-Co-Author: X. Luo. Thanks to her great help, without which this project could never be able to success.   
+Graduate Student: X. Luo. Thanks to her great help, without which this project could never be able to success.   
 Student: J. Wang, R. Zhao, Y. Liu, Y. Bian  
 
 Other Information:  
